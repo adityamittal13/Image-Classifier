@@ -1,4 +1,4 @@
-if gpu == 'yes':
+if gpu == 'yes': 
     device = 'cuda:0'
 else:
     device = 'cpu'
