@@ -8,7 +8,7 @@ if gpu and torch.cuda.is_available():
       model.cuda()
 
 def process_image(image):
-    transformations = transforms.Compose(transforms.Normalize(mean = [0.485, 0.456, 0.406],
+    transformations = transforms.Compose(transforms.Normalize(mean = [0.485, 0.456, 0.406], 
                                                              std = [0.229, 0.224, 0.225]))
     np_image = np.array(image)
     np_image.transpose()
