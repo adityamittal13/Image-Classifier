@@ -27,7 +27,7 @@ def imshow(image, ax=None, title=None):
     image = std * image + mean
     
     image = np.clip(image, 0, 1)
-    
+     
     ax.imshow(image)
     
     return ax
