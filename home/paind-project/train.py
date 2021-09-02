@@ -166,7 +166,7 @@ for e in range(epochs):
     for images, labels in trainloader:
         steps += 1
         
-        images, labels = images.to(device), labels.to(device)
+        images, labels = images.to(device), labels.to(device) 
         
         optimizer.zero_grad()
         
