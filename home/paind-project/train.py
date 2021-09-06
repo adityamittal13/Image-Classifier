@@ -194,7 +194,7 @@ for e in range(epochs):
             # Make sure training is back on and dropout is enabled once more
             model.train()
             
-correct = 0
+correct = 0 
 total = 0
 with torch.no_grad():
     for data in testloader:
